@@ -69,8 +69,8 @@ export default function Home() {
               controls
               playsInline
               autoPlay
+              poster="https://cdn.shopify.com/s/files/1/0811/6610/6937/files/pod-media-1-poster.png?v=1760635288"
               preload="metadata"
-              poster="/pod-tour-update-og.png"
               className="w-full aspect-video bg-black"
             >
               <source src={videoUrl} type="video/mp4" />
