@@ -81,7 +81,7 @@ export default function Home() {
           <section className="flex flex-col gap-6 text-center sm:text-left sm:flex-row sm:items-center sm:justify-between">
             <div className="space-y-2">
               <h2 className="text-2xl font-semibold text-white">
-                Meet &amp; greet with the band at the show
+                Meet &amp; Greet with the band at the show
               </h2>
               <p className="text-neutral-300">
                 VIP packages are still on the table. Lock in your meet &amp;
