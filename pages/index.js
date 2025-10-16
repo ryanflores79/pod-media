@@ -81,11 +81,11 @@ export default function Home() {
           <section className="flex flex-col gap-6 text-center sm:text-left sm:flex-row sm:items-center sm:justify-between">
             <div className="space-y-2">
               <h2 className="text-2xl font-semibold text-white">
-                Ride with the band at the next show
+                Meet &amp; greet with the band at the show
               </h2>
               <p className="text-neutral-300">
                 VIP packages are still on the table. Lock in your meet &amp;
-                greet, early merch access, and primo view while they last.
+                greet and early merch access while they last.
               </p>
             </div>
             <a
