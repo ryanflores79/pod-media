@@ -12,12 +12,10 @@ const vipUrl = "https://payableondeath.com/pages/vip";
 
 export default function Home() {
   const baseUrl = (
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://payableondeath.com"
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://pod-media-157445274352.us-central1.run.app"
   ).replace(/\/$/, "");
-  const pageUrl = baseUrl || "https://payableondeath.com";
-  const ogImage = baseUrl
-    ? `${baseUrl}/pod-tour-update-og.png`
-    : "https://payableondeath.com/pod-tour-update-og.png";
+  const pageUrl = baseUrl || "https://pod-media-157445274352.us-central1.run.app";
+  const ogImage = "https://cdn.shopify.com/s/files/1/0811/6610/6937/files/pod-media-1-poster.png?v=1760635288";
   const title = "P.O.D. Tour Update – VIP Packages Still Available";
   const description =
     "P.O.D. check in from the road with a tour update, sharing laughs about life on the bus and how many cups of coffee Sonny crushes every morning. Watch the exclusive video and grab the remaining VIP packages before they’re gone.";
@@ -70,6 +68,7 @@ export default function Home() {
             <video
               controls
               playsInline
+              autoPlay
               preload="metadata"
               poster="/pod-tour-update-og.png"
               className="w-full aspect-video bg-black"
